@@ -1,0 +1,40 @@
+/*Todavia no tengo las imagenes originales, son ilustrativas*/
+
+ html, body {
+    margin: 0;
+    padding: 0;
+}
+
+$colorTitu: white;
+
+body{
+    font-family: oblique;
+    user-select: none;
+}
+
+
+.imgLogo {
+    width: 100%;
+}
+
+body{
+    background-color: orange;
+}
+
+.titulo__principal{
+font-size: 50px;
+color: $colorTitu;
+font-style: oblique;
+text-shadow: 1px 1px 5px black;
+text-align: center;
+margin-bottom: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
