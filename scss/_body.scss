@@ -22,7 +22,7 @@ body{
 }
 
 .titulo__principal{
-font-size: 50px;
+font-size: map-get($map: $maps, $key: gran);
 color: $colorTitu;
 font-style: oblique;
 text-shadow: 1px 1px 5px black;

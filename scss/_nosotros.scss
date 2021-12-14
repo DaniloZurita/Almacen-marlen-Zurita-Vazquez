@@ -1,11 +1,5 @@
 .nosotros{
-
-    float: left;
-    padding: 20px;
-    background-color: rgba(181, 149, 144, 0.9);
-    border-radius: 20px;
-    font-weight: bold;
-    text-align: center;
+           @include titu;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,0 +1,7 @@
+Todas mis paginas tienen title, todas tienen un solo h1, a todos los html les sume el meta: keywords y el description.
+
+<meta name="keywords" content="Almacén, compras, tienda, vinos, gaseosas, fiambres, cervezas, caramelos, chocolates, cereales, pan, picada, copetin">
+
+
+
+<meta name="description" content="Almacen marlen es un negocio donde podras comprar tanto fisica como de manera online">

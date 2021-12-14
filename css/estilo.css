@@ -25,9 +25,14 @@ a {
   text-decoration: none; }
 
 .contaTitu {
+  float: left;
+  padding: 20px;
+  background-color: rgba(181, 149, 144, 0.9);
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
   font-size: 38px;
   color: black;
-  padding: 20px;
   text-shadow: 0 0 15px black;
   background-position: center; }
 
@@ -60,7 +65,7 @@ form {
   font-weight: bold;
   text-align: center; }
 
-.textProd {
+.textProd, .textProd2 {
   background: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, #d4980d 100%); }
 
@@ -85,9 +90,14 @@ form {
     width: 100%; } }
 
 .contaTitu {
+  float: left;
+  padding: 20px;
+  background-color: rgba(181, 149, 144, 0.9);
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
   font-size: 38px;
   color: black;
-  padding: 20px;
   text-shadow: 0 0 15px black;
   background-position: center; }
 

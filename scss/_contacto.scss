@@ -1,8 +1,7 @@
 .contaTitu{
-    
-    font-size: 38px;
+    @include titu;
+    font-size: map-get($map: $maps, $key: chic);
     color: black;
-    padding: 20px;
     text-shadow: 0 0 15px black;
     background-position: center;
     

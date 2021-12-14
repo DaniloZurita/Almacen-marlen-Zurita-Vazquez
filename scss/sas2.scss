@@ -1,0 +1,13 @@
+// maps use tamaño de letra al no tener muchos colores.
+
+$maps: ("gran":50px,"chic":38px);
+
+//Mixin
+@mixin titu {
+    float: left;
+    padding: 20px;
+    background-color: rgba(181, 149, 144, 0.9);
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    }
