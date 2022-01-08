@@ -1,3 +1,23 @@
+.headFlex {
+ display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 60% 15% auto; 
+  gap: 1px 1px; 
+  grid-template-areas: 
+    "Logo Logo"
+    "nav nav"
+    "titu titu"; 
+    align-content: space-evenly; 
+    width: 100%;
+}
+
+.nosotrosFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nosotros{
            @include titu;
 }
