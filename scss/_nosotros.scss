@@ -1,13 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: oblique;
+    user-select: none;
+}
+
+.fotosMain {
+    display: flex;
+    justify-content: space-around;
+}
+.imgLogo {
+    width: 100%;
+}
+
+.Logo { grid-area: Logo; }
+.nav { grid-area: nav; }
+.titu { 
+    grid-area: titu; 
+}
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+
+.barraNav{
+    display: inline-block;
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;}
+
+.barraNav li{
+    padding: 40px;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+    }
+
 .headFlex {
  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 60% 15% auto; 
-  gap: 1px 1px; 
+  grid-template-columns: 2fr; 
+  grid-template-rows: 70% 20% auto; 
+  gap: 2px 2px; 
   grid-template-areas: 
     "Logo Logo"
-    "nav nav"
-    "titu titu"; 
-    align-content: space-evenly; 
+    "titu titu"
+    "nav nav"; 
+    align-content: center; 
     width: 100%;
 }
 
